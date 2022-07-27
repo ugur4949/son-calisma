@@ -38,7 +38,7 @@ public class Topic1_Strings {
         //java will create a new string in the pool memory
         // :
         // :
-        String str2="Hello";// this wont create a new string under pool memory
+        String str2= "Hello"; // this wont create a new string under pool memory
         //because we already created hello .
         //// If the string already exists in the pool, a reference to the pooled instance is returned.
 
@@ -51,6 +51,14 @@ public class Topic1_Strings {
         System.out.println(str2);
         System.out.println(str2 == str6);
         System.out.println(str6 == str7);
+
+
+
+
+
+
     }
+
+
 
 }
